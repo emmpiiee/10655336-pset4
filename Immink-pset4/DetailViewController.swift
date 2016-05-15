@@ -103,8 +103,10 @@ class DetailViewController: UIViewController {
         todolist.removeAll()
         do {
             for item in try database!.prepare(notes) {
-                todolist.append(item[note])
-                print(item[track])
+                if (item[track] == TodoManager.sharedInstance.whichObject){
+                    todolist.append(item[note])
+                    print(item[track])
+                }
             }
         } catch {
             print("Cannot read database: \(error)")
