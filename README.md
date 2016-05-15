@@ -9,4 +9,6 @@ they can add items and remove them.
 The structure is still fairly simple, and so I made a 2.0 version of my app. 
 There will be one big new feature: having multiple separate lists of todo items. 
 And this time, we are going to make the code design more object-oriented.
+10655336-pset4/Schermafbeelding 2016-05-08 om 19.40.05.png
+![alt text](https://github.com/emmpiiee/10655336-pset4/Schermafbeelding 2016-05-08 om 19.40.05.png "Logo Title Text 1")
 
